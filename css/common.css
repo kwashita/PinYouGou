@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?xa19nr');
-  src:  url('../fonts/icomoon.eot?xa19nr#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?xa19nr') format('truetype'),
-    url('../fonts/icomoon.woff?xa19nr') format('woff'),
-    url('../fonts/icomoon.svg?xa19nr#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?5ctax9');
+  src:  url('../fonts/icomoon.eot?5ctax9#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?5ctax9') format('truetype'),
+    url('../fonts/icomoon.woff?5ctax9') format('woff'),
+    url('../fonts/icomoon.svg?5ctax9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -150,5 +150,68 @@
   color: #fff;
   border-radius: 7px 7px 7px 0;
 }
+/* 商品分类 */
+.classify {
+  height: 45px;
+  border-bottom: 2px solid #b1191a;
+}
+.classify .subClassify{
+  float: left;
+  width: 209px;
+	height: 45px;
+	background-color: #b1191a;
+}
+.classify .subClassify .dt{
+  font-size: 16px;
+	color: #ffffff;
+  text-align: center;
+  line-height: 45px;
+}
+.classify .subClassify .dd{
+  display: block;
+}
+.classify .subClassify .dd ul{
+  background-color: #c81623;
+}
+.classify .subClassify .dd ul li{
+  position: relative;
+  margin-left: 2px;
+  padding-left: 10px;
+  height: 31px;
+	font-size: 14px;
+	line-height: 31px;
+  color: #fff;
+}
+.classify .subClassify .dd ul li:hover{
+  background-color: #fff;
+}
+.classify .subClassify .dd ul li:hover a,li::after{
+  color: #c81623;
+}
+.classify .subClassify .dd ul li a{
+  color: #fff;
+}
+.classify .subClassify .dd ul li::after{
+  font-family: 'icomoon';
+  content: "\e900";
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  font-size: 5px;
+  color: #fff;
+}
 
+.classify .subNav{
+  float: left;
+	font-size: 16px;
+	color: #333333;
+  text-align: center;
+  line-height: 45px;
+}
+.classify .subNav ul li{
+  float: left;
+}
+.classify .subNav ul li a{
+  padding: 0 20px;
+}
 
