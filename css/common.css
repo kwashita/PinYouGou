@@ -53,7 +53,6 @@
 .header{
   position: relative;
   height: 105px;
-  background-color: pink;
 }
 .header .logo{
   width: 171px;
@@ -168,7 +167,7 @@
   line-height: 45px;
 }
 .classify .subClassify .dd{
-  display: block;
+  display: none;
 }
 .classify .subClassify .dd ul{
   background-color: #c81623;
@@ -213,5 +212,84 @@
 }
 .classify .subNav ul li a{
   padding: 0 20px;
+}
+.footer{
+  height: 417px;
+  background-color: #f5f5f5;;
+}
+.footer .foot-head{
+  height: 109px;
+  border-bottom: 1px solid #ededed;
+}
+.footer .foot-head ul{
+  padding-top: 30px;
+}
+.footer .foot-head ul li{
+  float: left;
+  width: 241px;
+}
+.footer .foot-head ul li:last-child{
+  width: 230px;
+}
+.footer .foot-head ul li span{
+  float: left;
+  width: 49px;
+	height: 49px;
+  margin-right: 9px;
+  background: url("../images/icons.png") no-repeat -253px -3px;
+}
+.footer .foot-head ul li p:nth-of-type(1){
+	font-size: 14px;
+  color: #333333;
+}
+.footer .foot-head ul li p:nth-of-type(2){
+	font-size: 12px;
+  color: #666666;
+  margin-top: 9px;
+}
+.footer .foot-body dl {
+  float: left;
+  margin-right: 135px;
+}
+.footer .foot-body dl:nth-child(5){
+  margin-right: 118px;
+  
+}
+.footer .foot-body dl:last-child{
+  margin-right: 0;
+}
+.footer .foot-body dl dt{
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 13px;
+}
+.footer .foot-body dl dd{
+  font-size: 12px;
+	color: #666666;
+}
+.footer .foot-body dl:last-child dt, .footer .foot-body dl:last-child dd{
+  text-align: center;
+}
+.footer .foot-body dl:last-child img{
+  margin-bottom: 8px;
+}
+
+.copyright{
+  text-align: center;
+  margin-top: 45px;
+  color: #666;
+}
+.footer .copyright ul{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.footer .copyright ul li {
+  float: left;
+}
+.footer .copyright ul li a{
+  font-size: 12px;
+	color: #666666;
+  margin: 0 12px;
 }
 
